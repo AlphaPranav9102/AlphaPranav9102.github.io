@@ -5,13 +5,11 @@
 		<title>Pranav Karthikeyan</title>
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 		<link rel="stylesheet" href="styles.css">
-		{% include head.html %}
-    		{% seo %}
+		<script src="formjsmessage">
+			
+		</script>
 	</head>
 	<body>
-		
-		</script>
-
 		<nav>
     			<a href="#">Pranav Karthikeyan</a>
 			<a href="index.html">Home</a>
@@ -44,16 +42,16 @@
 		<center>
 		<h1 class="header1header"> Contact Me</h1>
 		<br>
-		<form>
+		<form action="#" method="post" name="ContactForm" id="Contact_id" class="Contact_class">
 		    <p class="header1header">First Name</p>
-			<input type="text"name="First Name"><br><br>
+			<input type="text"name="First_Name"><br><br>
 		    <p class="header1header">Last Name</p>
-			<input type="text" name="Last Name" ><br><br>
+			<input type="text" name="Last_Name" ><br><br>
 		    <p class="header1header">Email Address</p>
-			<input type="text" name="Email Address"<br><br>
+			<input type="text" name="Email_Address"<br><br>
 		    <p class="header1header">Memo</p>
 			<input type="text" name="Memo"><br><br>
-			<input class="btn" type="button" value="Submit" onclick="WriteToFile(this.form)">
+			<input class="btn" type="button" value="Submit" onclick="validation()">
 		</form>
 		</center>
 		</br>
